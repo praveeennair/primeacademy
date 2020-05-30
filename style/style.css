@@ -174,7 +174,7 @@ hr{
     height: auto;
 }
   .cir-2 {
-    max-width: 40% !important;
+    max-width: 61% !important;
     height: auto;
 }
 .about .btn{
@@ -251,6 +251,9 @@ footer p{
     .btn{
         width: 150px;
     }
+    .cir-2 {
+        max-width: 40% !important;
+        height: auto;
     
 }
 @media (min-width: 992px){
