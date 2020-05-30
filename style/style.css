@@ -203,6 +203,10 @@ footer{
     background-color: #000000;
     color: rgba(255, 255, 255, .5);
 }
+footer p{
+    font-size: .9rem;
+}
+
  .dev{
     text-decoration: none !important;
     color: rgba(255, 255, 255, .5) !important;
@@ -237,6 +241,10 @@ footer{
     .menu-item-desc{
         padding: 50px 20px;
     }
+    footer p{
+        font-size: 1.1rem;
+    }
+    
 }
 
 @media (min-width: 768px){
