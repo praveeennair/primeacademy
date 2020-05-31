@@ -30,6 +30,11 @@ header > .container{
     height: 100%;
     padding: 0;
 }
+.navbar.scrolled{
+    background: #000000;
+    transition: background 1000ms;
+    height: 17vh;
+  }
 .navbar-brand{
     position: absolute;
     width: 100%;
@@ -53,7 +58,7 @@ header > .container{
     background-color: #000000;
     border-radius: 4px;
     cursor: pointer;
-    z-index: 999;
+    z-index: 1800;
 }
 .hamburger-menu i{
     font-size: 30px;
@@ -173,10 +178,6 @@ hr{
     max-width: 61% !important;
     height: auto;
 }
-  .cir-2 {
-    max-width: 61% !important;
-    height: auto;
-}
 .about .btn{
     width: 150px;
     color: #c69963 !important;
@@ -230,6 +231,9 @@ footer p{
     .navbar-brand{
         max-width: 150px;
     }
+    .navbar.scrolled {
+        height: 24vh;
+    }
     .hamburger-menu{
         top: 35px;
         right: 25px;
@@ -244,6 +248,7 @@ footer p{
     footer p{
         font-size: 1.1rem;
     }
+
     
 }
 
@@ -251,11 +256,7 @@ footer p{
     .btn{
         width: 150px;
     }
-    .cir-2 {
-        max-width: 40% !important;
-        height: auto;
-    
-}
+  }
 @media (min-width: 992px){
     header > .container{
         padding: 0 15px;
